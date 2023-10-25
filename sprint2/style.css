@@ -1,0 +1,51 @@
+
+
+@import url('https://fonts.googleapis.com/family=Young+Serif&display=swap');
+
+h1 class-1{
+    font-family: 'Young Serif', serif;
+}
+body{
+    background-image: url("/img4.png");
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
